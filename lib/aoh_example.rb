@@ -15,7 +15,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  [{:name=>  "Don Gately", :occupation=> "Live-in Staff"}, 
+  AoH = [{:name=>  "Don Gately", :occupation=> "Live-in Staff"}, 
   {:name=>  "Joelle van Dyne", :occupation=> "Radio Personality"}, 
   {:name=>  "Pat Monteseian", :occupation=> "Staff"}, 
   {:name=>  "Kate Gompert", :occupation=> "None"}, 
@@ -23,7 +23,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  aoh[0][:name]
+  AoH[0][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
