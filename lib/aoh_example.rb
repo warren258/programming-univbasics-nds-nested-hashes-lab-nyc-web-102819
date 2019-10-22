@@ -23,7 +23,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  AoH[0][:name]
+  [0][:name]
 end
 
 def aoh_update(aoh, row, key, new_value)
